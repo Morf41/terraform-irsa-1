@@ -7,7 +7,7 @@ variable "aws_region" {
 variable "cluster_name" {
   type        = string
   description = "EKS cluster name"
-  default     = "etechapp-eks-uKDGKMvN"
+  default     = "etechapp-eks-BAV4mKjr"
 }
 
 # variable "oidc_provider_arn" {
@@ -31,5 +31,5 @@ variable "service_account_name" {
 variable "s3_bucket_name" {
   type        = string
   description = "S3 bucket name"
-  default     = "appcontent-app"
+  default     = "etechapp-sa"
 }
